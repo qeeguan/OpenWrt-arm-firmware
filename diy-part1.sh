@@ -20,7 +20,3 @@
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
-
-# correct compile error [/workdir/openwrt/include/toplevel.mk:230: world] Error 2
-export FORCE_UNSAFE_CONFIGURE=1
-soruce /etc/profile
